@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/bg.xml" value="0.2388888888888889" />
+        <entry key="app/src/main/res/drawable-v24/ic_add.xml" value="0.13645833333333332" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_arrow_forward_24.xml" value="0.2388888888888889" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_calculate_24.xml" value="0.2388888888888889" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_content_copy_24.xml" value="0.2388888888888889" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_qr_code_scanner_24.xml" value="0.2388888888888889" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_sticky_note_2_24.xml" value="0.2388888888888889" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_today_24.xml" value="0.2388888888888889" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.184375" />
+        <entry key="app/src/main/res/drawable-v24/round_grey.xml" value="0.13645833333333332" />
+        <entry key="app/src/main/res/drawable-v24/round_lblue.xml" value="0.16979166666666667" />
+        <entry key="app/src/main/res/drawable-v24/round_primary.xml" value="0.16979166666666667" />
+        <entry key="app/src/main/res/drawable/bg3.xml" value="0.16979166666666667" />
+        <entry key="app/src/main/res/drawable/bg_not_done.xml" value="0.2388888888888889" />
+        <entry key="app/src/main/res/drawable/ic_baseline_av_timer_24.xml" value="0.2388888888888889" />
+        <entry key="app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.16979166666666667" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.184375" />
+        <entry key="app/src/main/res/drawable/ic_save.xml" value="0.175" />
+        <entry key="app/src/main/res/layout/activity_break.xml" value="0.15885416666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/activity_notes.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_notes_taker.xml" value="0.20153985507246377" />
+        <entry key="app/src/main/res/layout/activity_pomo.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_scan.xml" value="0.15364583333333334" />
+        <entry key="app/src/main/res/layout/activity_scanner_view.xml" value="0.15364583333333334" />
+        <entry key="app/src/main/res/layout/activity_select.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_task.xml" value="0.15885416666666666" />
+        <entry key="app/src/main/res/layout/cgpa_manage_row.xml" value="0.1203125" />
+        <entry key="app/src/main/res/layout/notes_list.xml" value="0.1939628342728956" />
+        <entry key="app/src/main/res/menu/calc_menu.xml" value="0.1203125" />
+        <entry key="app/src/main/res/menu/mancgpa_menu.xml" value="0.15885416666666666" />
+        <entry key="app/src/main/res/menu/note_menu.xml" value="0.15885416666666666" />
+        <entry key="app/src/main/res/menu/popup_menu.xml" value="0.15885416666666666" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.184375" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.184375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

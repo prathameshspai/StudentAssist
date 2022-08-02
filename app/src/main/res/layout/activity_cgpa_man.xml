@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingBottom="16dp"
+    tools:context=".GPA.CgpaManActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/reqCgpa"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="numberDecimal"
+            android:hint="  Enter required CGPA  "
+            android:background="@drawable/round_grey"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Add previous semesters' SGPAs:"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+
+        android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/layout_list_man"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+
+        <Button
+            android:id="@+id/button_add"
+            android:background="@drawable/round_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableRight="@drawable/ic_add"
+            />
+
+        <EditText
+            android:id="@+id/remsem"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:hint="  No. of remaining semesters  "
+            android:background="@drawable/round_grey"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/gp_result"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/round_grey"
+            android:text="Your Grade Point Average is 9.3"
+            android:textStyle="bold"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:textSize="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_marginLeft="15dp"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/button_submit_list_man"
+            android:background="@drawable/round_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Submit"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/docum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textSize="33.7dp"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"
+            android:textColor="#938504"
+            android:textStyle="bold"
+            android:text="Enter the CGPA that you wish to score\n\nClick on add button to enter all prev. sem. SGPAs\n\nEnter no. of remaining semesters."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </LinearLayout>
+</ScrollView>

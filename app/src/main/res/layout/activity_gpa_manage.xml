@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    tools:context=".GPA.GpaManageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/totalmarks_next"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="numberDecimal"
+        android:hint="  Total Marks per course in next exam  "
+        android:background="@drawable/round_grey"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:textColor="@color/black"/>
+
+
+
+        <TextView
+            android:id="@+id/textdet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:text="Course  \t\t\t\t\t\t\t\t\tC*\t\t\t\t\t M* \t\t\t\t\t\tL*\t\t\t\t\t\t\t\t\t GP"/>
+
+        <LinearLayout
+        android:id="@+id/layout_list_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+
+        <TextView
+            android:id="@+id/gp_result_next"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="@drawable/round_grey"
+            android:text="Your Grade Point Average is 9.3"
+            android:textStyle="bold"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:textSize="23dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_marginLeft="15dp"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/See_but"
+            android:background="@drawable/round_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="SEE?"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/button_submit_next"
+            android:background="@drawable/round_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Submit"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/documentation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:visibility="gone"
+            android:text="C* - Credits\nM* - Marks that you need to score in the next exam to get the GPA as shown above.\nL* - implies how many marks you can afford to lose in the next exam to get the required GPA.\nNP - Not possible\nGP - Grade points (Change these to increase or decrease your GPA).\n\n[DEMO APP BY PRATHAMESH S PAI]
+"/>
+    </LinearLayout>
+</ScrollView>

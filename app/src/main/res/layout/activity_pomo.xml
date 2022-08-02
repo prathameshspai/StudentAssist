@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".POMO.PomoActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/faq_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#24282b"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp">
+
+        <LinearLayout
+            android:id="@+id/q_exp_lay3"
+            android:background="@drawable/bg"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:requiresFadingEdge="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_q_exp_lay3"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg"
+                android:padding="13dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="How to use the Pomodoro Timer?"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but_q_exp_lay3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <LinearLayout
+        android:id="@+id/expanded_lay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/view_q_exp_lay3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFF"
+
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/ans_q_exp_lay3"
+            android:layout_width="match_parent"
+            android:layout_height="337dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="\n\n\n\n 1. Use Task Manager to add all tasks to work on today\n 2. Set estimate pomodoros (1 = 25min of work) for each tasks\n 3. Select a task to work on\n 4. Start timer and focus on the task for 25 minutes\n 5. Take a break for few minutes to relax\n 6. Iterate  steps 3-5 until you finish the tasks\n Note: The timer will make a beep sound at \n the end"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:background="@drawable/bg"
+            android:padding="13dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/task_mgr"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="6.5dp"
+        android:text="    Task Manager    "
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:background="@drawable/round_primary"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/usetxt"
+        />
+
+    <TextView
+        android:id="@+id/usetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="How to use a Pomodoro timer?"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="336dp"
+        android:background="@drawable/bg3"
+        android:fontFamily="@font/mukta_vaani_medium"
+        android:text="00:00"
+        android:textColor="@color/black"
+        android:textSize="60sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_start_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/text_view_countdown"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:background="@drawable/round_primary"
+        android:text="Start" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/button_start_pause"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_primary"
+        android:text="Reset"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/break_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/round_primary"
+        android:text="RESET"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+
+</RelativeLayout>

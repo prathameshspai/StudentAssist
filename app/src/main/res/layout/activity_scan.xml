@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context=".QR.ScanActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/scanbtn"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:cardElevation="7dp"
+        app:cardCornerRadius="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img"
+        android:focusable="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg"
+            android:layout_height="match_parent">
+
+            `
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/gpamanage_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="cursive"
+                    android:paddingStart="16dp"
+                    android:gravity="center_horizontal"
+                    android:paddingEnd="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Scan QR"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="#FFF"
+                    android:textSize="30.7dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:paddingBottom="16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_qr_code_scanner_24"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/scantext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:text="This text is editable"
+        android:textSize="20sp"
+        android:textColor="#000"
+        />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/copybtn"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:paddingLeft="16dp"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="16dp"
+            android:drawableLeft="@drawable/ic_baseline_content_copy_24"
+            android:background="@drawable/round_primary"
+            android:textAllCaps="false"
+            android:text=" Copy"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/browzbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:paddingLeft="16dp"
+        android:layout_marginLeft="8dp"
+        android:paddingRight="16dp"
+        android:drawableLeft="@drawable/ic_baseline_open_in_browser_24"
+        android:background="@drawable/round_primary"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:text=" Open in browser"
+        android:layout_marginRight="8dp"
+
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
